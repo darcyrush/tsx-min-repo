@@ -1,0 +1,15 @@
+{
+  "name": "Example",
+  "scripts": {
+    "npx-err": "npx tsx --tsconfig ./src/tsconfig.json src/main.ts",
+    "node-err": "node --import tsx src/main.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "10.2.8",
+    "@nestjs/core": "10.2.8"
+  },
+  "devDependencies": {
+    "tsx": "4.1.2",
+    "typescript": "5.2.2"
+  }
+}
