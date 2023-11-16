@@ -2,7 +2,7 @@
   "name": "Example",
   "scripts": {
     "npx-err": "npx tsx --tsconfig ./src/tsconfig.json src/main.ts",
-    "node-err": "node --import tsx src/main.ts"
+    "node-err": "TSX_TSCONFIG_PATH=./src/tsconfig.json node --import tsx src/main.ts"
   },
   "dependencies": {
     "@nestjs/common": "10.2.8",
